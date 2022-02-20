@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile Card UI Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="upside">
+            <div class="text">
+                <h2>pKroz</h2>
+                <p>uWu</p>
+            </div>
+            <div class="add"><i class="fa fa-plus"></i></div>
+        </div>
+        <div class="bottom">
+            <div>
+                <p>Projects</p>
+                <p>56</p>
+            </div>
+            <div>
+                <p>Youtube</p>
+                <p>20,165</p>
+            </div>
+            <div>
+                <p>Seguidores</p>
+                <p>516</p>
+            </div>
+        </div>
+        <div class="inside">
+            <p>Redes sociales:</p>
+            <a href="https://www.facebook.com/gaming/pKrozC"><i class="fa fa-facebook fa-2x fa-fw"></i></a>
+            <a href="https://twitter.com/pKrozC"><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+            <a href="https://www.instagram.com/pKrozC"><i class="fa fa-instagram fa-2x fa-fw"></i></a>
+            <a href="#"><i class="fa fa-github-alt fa-2x fa-fw"></i></a>
+            <div class="bottom1">
+                <div>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div>
+                    <p>Seguidores</p>
+                    <p>516</p>
+                </div>
+                <div>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    
+    $(function(){
+        $(".add").click(function(){
+            $(".card").toggleClass("pCard_on");
+            $(".add i").toggleClass("fa-minus")
+        });
+    });
+
+    </script>
+
+</body>
+</html>
